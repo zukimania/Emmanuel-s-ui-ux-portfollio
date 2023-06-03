@@ -265,7 +265,7 @@
  }
 
  .fourth-section {
-     max-width: 600px;
+     max-width: 950px;
      margin: 0 auto;
      background-color: #fff;
      padding: 20px;
@@ -360,6 +360,10 @@
      .social {
          display: none;
      }
+     .skills{
+        gap: 0rem;
+        transform: scale(0.6);
+     }
 
      .fourth-section {
          padding: 0;
@@ -370,5 +374,9 @@
      .box{
         width: 300px;
         height: 300px;
+        transform: scale(0.5);
+     }
+     .fourth-section{
+        max-width: 450px;
      }
  }
