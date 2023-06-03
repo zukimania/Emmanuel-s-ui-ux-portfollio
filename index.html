@@ -22,7 +22,7 @@
                 <a href=""><i class="fa-brands fa-linkedin fa-bounce fa-2xl"></i></a>
                 <a href=""><i class="fa-brands fa-square-dribbble fa-bounce fa-2xl"></i></a>
             </div>
-            <div class="icon-bar">
+            <div class="icon-bar" id="navbar">
                 <a href="#"><i class="fa-solid fa-bars"></i></a>
                 <a href="#"><i class="fa fa-search"></i></a>
                 <a href="#"><i class="fa-solid fa-pen"></i></a>
@@ -123,5 +123,18 @@
         setInterval(textLoad, 12000);
     </script>
 
+    <script>
+        let prevScrollpos = window.pageYOffset;
+            window.onscroll = function () {
+                const currentScrollPos = window.pageYOffset;
+                if (prevScrollpos > currentScrollPos) {
+                    document.getElementById("navbar").style.bottom = "1rem";
+                } else {
+                    document.getElementById("navbar").style.bottom = "-60px";
+                }
+                prevScrollpos = currentScrollPos;
+            }
+          
+    </script>
 </body>
 </html>

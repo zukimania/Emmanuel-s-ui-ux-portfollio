@@ -82,9 +82,12 @@
  .svg-designer {
      margin-right: 2rem;
  }
+ .contine{
+    margin-top: 3rem;
+ }
 
  .sec-section {
-     min-height: 60vh;
+     min-height: 75vh;
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -92,12 +95,7 @@
      overflow: hidden;
  }
 
- .contine {
-     margin-top: 0rem;
- }
-
  .box {
-     /* margin-top: 4rem; */
      position: relative;
      width: 400px;
      height: 400px;
