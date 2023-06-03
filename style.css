@@ -93,7 +93,7 @@
  }
 
  .continue {
-     margin-top: 4rem;
+     margin-top: 0rem;
  }
 
  .box {
@@ -372,9 +372,7 @@
         font-size: 13px;
      }
      .box{
-        width: 400px;
-        height: 400px;
-        transform: scale(0.6);
+        transform: scale(0.8);
      }
      .fourth-section{
         max-width: 450px;
