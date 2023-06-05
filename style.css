@@ -362,3 +362,8 @@
         font-size: 15px;
      }
  }
+ @media screen and (max-width: 600px) {
+    .icon-bar{
+        scale: 0.8;
+    }
+ }
