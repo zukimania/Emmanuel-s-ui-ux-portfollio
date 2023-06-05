@@ -12,6 +12,7 @@
 
  html {
      color-scheme: light dark;
+     scroll-behavior: smooth;
  }
 
  .first-section {
@@ -78,6 +79,7 @@
  }
  .contine{
     margin-top: 3rem;
+    font-size: large;
  }
 
  .sec-section {
@@ -202,7 +204,6 @@
  }
 
  .skills {
-     /* gap: 2rem; */
      display: flex;
      flex-direction: row;
      justify-content: center;
@@ -348,7 +349,8 @@
          padding: 0;
      }
      .contine{
-        font-size: 13px;
+        font-size: 10px;
+        text-align: center;
      }
      .box{
         transform: scale(0.8);
