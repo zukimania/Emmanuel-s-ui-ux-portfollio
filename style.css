@@ -113,8 +113,8 @@
  }
 
  .fifth-section{
-    margin-top: 20%;
-    margin-bottom: 20%;
+    margin-top: 10%;
+    margin-bottom: 5%;
     background: #191919;
  }
 
@@ -241,12 +241,15 @@
  .social img a {
      gap: 20rem;
  }
+ .div-contact{
+    text-align: center;
+    padding-top: 1%;
+    margin-bottom: 2%;
+ }
  .form-img{
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: -10%;
-    margin-bottom: 15%;
  }
  .form-img h1{
     margin-top: -10%;
@@ -385,7 +388,7 @@
       padding: 10px;
     }
     .form button.submit{
-        padding: 12px 159px;
+        padding: 12px 143px;
 
     }
  }
