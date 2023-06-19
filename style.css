@@ -112,8 +112,42 @@
      color: #d4009f;
  }
 
+ .fifth-section{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    background: #191919;
+ }
+
  .project-text {
      text-align: center;
+     color: #d4009f;
+ }
+
+ .project-img {
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 20px;
+     min-height: 70vh;
+ }
+
+ .project-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+     grid-gap: 20px;
+ }
+
+ .project-item {
+     background-color: #f0f0f0;
+     padding: 20px;
+     text-align: center;
+     height: 25vh;
+ }
+
+ .project-item img {
+     width: 100%;
+     max-height: 200px;
+     object-fit: cover;
+     margin-bottom: 10px;
  }
 
  .icon-bar {
@@ -207,12 +241,100 @@
  .social img a {
      gap: 20rem;
  }
+ .form-img{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -10%;
+    margin-bottom: 15%;
+ }
+ .form-img h1{
+    margin-top: -10%;
+ }
+ .form-img img{
+    scale: 0.5;
+ }
+ .form {
+     max-width: 500px;
+     margin: 0 auto;
+     padding: 20px;
+     /* background-color: #f2f2f2; */
+     border-radius: 25px;
+     box-shadow: 10px 10px 20px rgb(72, 71, 71);
+ }
 
+ /* Styling form labels */
+ .form label {
+     display: block;
+     margin-bottom: 5px;
+     color: #333;
+     font-weight: bold;
+     text-align: left;
+ }
+
+ /* Styling form inputs */
+ .form input[type="text"],
+ .form input[type="email"],
+ .form input[type="phone"]
+  {
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 50px;
+     border: 1px solid #ccc;
+     border-radius: 0.5px;
+     border-bottom: -1px solid #191919;
+     border-top: 0px;
+     border-left: 0px;
+     border-right: 0px;
+     text-align: start;
+ }
+
+ .form textarea{
+    width: 100%;
+        padding: 8%;
+        margin-bottom: 50px;
+        border-radius: 5px;
+        border: -1px solid #191919;
+        text-align: start;
+ }
+
+ /* Styling form button */
+ .form button.submit {
+     background-color: #191919;
+     color: #fff;
+     padding: 12px 182px;
+     border: none;
+     border-radius: 15px;
+     cursor: pointer;
+     text-align: center;
+     justify-content: center;
+     place-items: center;
+     align-content: center;
+     align-items: center;
+     margin-bottom: 10px;
+ }
+ .submit{
+    font-size: 30px;
+ }
+
+ .or{
+    text-align: center;
+    margin-bottom: 10px;
+ }
+ .social-2 {
+     justify-content: center;
+     align-items: center;
+     place-items: center;
+     text-align: center;
+ }
  footer {
      justify-content: center;
      align-items: center;
      place-items: center;
      text-align: center;
+     background: #191919;
+     color: #fff;
+     margin-top: 10%;
  }
 
  @media screen and (max-width: 768px) {
@@ -258,6 +380,14 @@
      .description p{
         font-size: 0.8rem;
      }
+    .form {
+      max-width: 430px;
+      padding: 10px;
+    }
+    .form button.submit{
+        padding: 12px 159px;
+
+    }
  }
  @media screen and (max-width: 600px) {
     .icon-bar{
