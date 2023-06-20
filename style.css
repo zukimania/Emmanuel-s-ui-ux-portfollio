@@ -399,4 +399,7 @@
     .icon-bar{
         scale: 1.07;
     }
+    .form{
+        scale: 0.9;
+    }
  }
