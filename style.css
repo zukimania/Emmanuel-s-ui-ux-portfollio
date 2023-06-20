@@ -397,7 +397,7 @@
  }
  @media screen and (max-width: 600px) {
     .icon-bar{
-        scale: 1.07;
+        scale: 0.9;
     }
     .form{
         scale: 0.9;
