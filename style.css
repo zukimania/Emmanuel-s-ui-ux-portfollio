@@ -1,4 +1,5 @@
- * {
+
+* {
      margin: 0;
      padding: 0;
      box-sizing: border-box;
@@ -388,7 +389,7 @@
       padding: 10px;
     }
     .form button.submit{
-        padding: 12px 125px;
+        padding: 12px 138px;
 
     }
          .icon-bar {
@@ -403,3 +404,4 @@
         scale: 0.9;
     }
  }
+
