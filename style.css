@@ -152,14 +152,25 @@
  }
 
  .project-item {
-     /* background-color: #f0f0f0; */
     /* background-color: rgba(22, 12, 12, 0.25); */
-    background-color: hsla(0, 0%, 100%, 0.238);
+    /* background-color: hsla(0, 0%, 100%, 0.238); */
+    background-color: hsla(315, 100%, 42%, 0.346);
         backdrop-filter: blur(15px);
      padding: 20px;
      text-align: center;
      height: 50vh;
      border-radius: 10px;
+     position: relative;
+     cursor: pointer;
+     opacity: 0;
+     transition: all 2s;
+     transform: translateX(-80%);
+     filter: blur(5px);
+ }
+ .project-item.show{
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
  }
 
  .project-item img {
