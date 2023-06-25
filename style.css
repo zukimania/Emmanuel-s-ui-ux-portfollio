@@ -76,9 +76,6 @@
      }
  }
 
- .svg-designer {
-     /* margin-right: 2rem; */
- }
  .contine h1{
     padding-top: 1.5rem;
     font-size: 2rem;
@@ -164,13 +161,13 @@
      text-align: center;
      height: 50vh;
      border-radius: 10px;
-     cursor: pointer;
      transition: all 2s;
      transform: translateX(-80%);
      filter: blur(5px);
  }
- .project-item:hover::before{
-    opacity: 1;
+ .project-item:hover{
+    background-color: #ffffff1d;
+    backdrop-filter: blur(10px);
  }
  
 
@@ -457,9 +454,15 @@
         padding: 12px 133px;
 
     }
-         .icon-bar {
-             scale: 0.9;
-         }
+     .icon-bar {
+     scale: 0.9;
+    }
+    .project-grid button{
+        margin-top: 10px;
+    }
+    .project-item{
+        height: 55vh;
+    }
  }
  @media screen and (max-width: 600px) {
     .icon-bar{
