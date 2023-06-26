@@ -160,18 +160,30 @@
             <p class="all">All Rights Reserved &copy; 2023</p>
         </footer>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+        integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"
+        integrity="sha512-p2+9xw/arVzLSAOdcW4DmsmOZI8pOlaDbinwqD4SFTED5rHhw5LlCgIKtpt6wJN0cjBBFPV06Y/Cl23hIeFApg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
     <script src="animate.js"></script>
     <script defer src="app.js"></script>
     <script src="anime.min.js"></script>
     <script>
-        const anime = require('animejs');
-    </script>
-    <script>
         anime({
-            targets: '.icon-bar',
-            translateX: 550,
-            // rotateZ: 360
+            targets: 'div.vector',
+            translateY: [
+                { value: 200, duration: 500 },
+                { value: 0, duration: 800 }
+            ],
+        });
+        anime({
+            targets: 'div.texts',
+            translateX: [
+                { value: 200, duration: 500 },
+                { value: 0, duration: 800 }
+            ],
         });
     </script>
 
