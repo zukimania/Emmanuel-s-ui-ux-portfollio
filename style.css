@@ -75,6 +75,9 @@
          left: 0%;
      }
  }
+ .vector{
+    width: 100%;
+ }
 
  .contine h1{
     padding-top: 1.5rem;
@@ -187,6 +190,12 @@
      object-fit: cover;
      margin-bottom: 10px;
      height: 35vh;
+ }
+ .div-port{
+    display: flex;
+    margin: 10%;
+    align-items: center;
+    justify-content: flex-end;
  }
 
  .icon-bar {
@@ -407,6 +416,28 @@
      /* margin-top: 10%; */
  }
 
+
+ @media screen and (max-width: 1024px) {
+       .div-port{
+        margin: 0%;
+        margin-left: 100%;
+        justify-content: center;
+    }
+       .svg-designer{
+        margin: 0%;
+        width: 100%;
+     }
+
+     .vector{
+         margin-right: 0%;
+        max-width: 100%;
+     }
+       .div-port{
+        margin: 0%;
+        justify-content: center;
+    }
+ }
+
  @media screen and (max-width: 768px) {
      .first-section {
          display: flex;
@@ -421,10 +452,7 @@
          justify-content: space-between;
          margin: 10%;
      }
-
-     .svg-designer {
-         margin-right: 0%;
-     }
+  
      .svg-journey{
         width: 100%;
      }
@@ -475,5 +503,6 @@
     .form{
         scale: 0.9;
     }
+  
  }
 
