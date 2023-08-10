@@ -195,7 +195,8 @@
     display: flex;
     margin: 10%;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
+    text-align: center;
  }
 
  .icon-bar {
